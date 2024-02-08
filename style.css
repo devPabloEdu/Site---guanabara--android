@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf) format("opentype");
+}
+body{
+    background-color: rgb(19, 150, 63);
+}
+#menucabeçalho {
+    background-image: linear-gradient(rgb(19, 150, 63), rgb(18, 121, 31), rgb(15, 114, 29) );
+    border: 0px solid green;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centro{
+    text-align: center;
+}
+#TTULO{
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    font-size: 3em;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+}
+#subtitulo{
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+nav{
+    border: 0px solid green;
+    background-color: rgb(15, 114, 29);
+    padding-bottom: 5px;   
+}
+nav>a{
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+nav>a:hover{
+    text-decoration: underline;
+}
+.conteudo{
+    background-color: white;
+    border: 10px solid white;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.paragrafo{
+    padding-left: 50px;
+}
+.verdinho{
+    background-color: rgba(30, 255, 0, 0.322);
+    font-family: "droid";
+    color: rgb(18, 109, 30);
+}
+#mascotedroid{
+    font-family: "droid";
+    color: rgb(18, 109, 30);
+    font-size: 3em;
+}
+.imgnocentro{
+    text-align: center;
+}
+#videoloco{
+    background-color: green;
+    border: 10px solid green;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#extra{
+    background-color:rgb(71, 139, 71) ;
+    border: 20px solid rgb(71, 139, 71);
+    color: white;
+    border-radius: 10px;
+    
+}
+#lista{
+    border: 0px solid green;
+    padding-top: 0px;
+    background-color: rgb(135, 194, 135);
+    border-radius: 10px;
+}
+.teste{
+    margin-left: 50%;
+}
+.cor{
+    color: rgb(19, 95, 42);
+    font-weight: bolder;
+}
+.cor:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(11, 46, 11);
+    border: 0px solid  rgb(11, 46, 11);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
